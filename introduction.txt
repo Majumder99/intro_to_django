@@ -1,0 +1,9 @@
+root directory is the main folder
+inner project holo vitore jeta folder 
+__init.__py = if i wanna make a python package then I'm going to create this file
+wsgi.py = web server gateway interface provides for the communication between the web server and the web application and synchoronous python apps
+web server and web application 
+asgi.py = asynchronous server gateway interface provides both asynchornous and synchoronous
+settings.py = all the settings of the project, database config information
+urls.py = all the urls of the project, which url pattern for which application 
+manage.py = it points settings.py 
