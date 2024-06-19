@@ -7,3 +7,4 @@ asgi.py = asynchronous server gateway interface provides both asynchornous and s
 settings.py = all the settings of the project, database config information
 urls.py = all the urls of the project, which url pattern for which application 
 manage.py = it points settings.py 
+django project holds one or more applications 
