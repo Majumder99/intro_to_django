@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def fees_view(request):
     return HttpResponse('fees view')
+
+def fees_edit(request):
+    return HttpResponse('fees edit')

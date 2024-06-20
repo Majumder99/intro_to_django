@@ -5,5 +5,8 @@ from django.shortcuts import render
 def learn_django(request):
     return HttpResponse("This is the learn_django view")
 
+def edit_django(request):
+    return HttpResponse("This is the learn_django edit")
+
 def index(request):
     return HttpResponse("This is the index view")
