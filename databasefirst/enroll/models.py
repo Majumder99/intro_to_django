@@ -7,3 +7,8 @@ class Student(models.Model):
     stuemail=models.EmailField()
     stupass=models.CharField(max_length=30)
     common=models.CharField(max_length=30, default='common')
+    
+
+    def __str__(self):
+        return self.stuname
+    
