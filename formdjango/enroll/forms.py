@@ -6,6 +6,8 @@ class StudentRegistratoinForm(forms.Form):
     email = forms.EmailField()
     # password = forms.CharField(widget=forms.PasswordInput)
     # re_password = forms.CharField(widget=forms.PasswordInput)
+    # class_attr = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
+    # date_type = forms.DateField(widget=forms.DateInput(attrs={'type': 'date'}))
 
 
     # def clean(self):
